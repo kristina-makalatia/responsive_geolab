@@ -1,0 +1,39 @@
+/*Responsive*/
+@media (max-width: 850px) {
+	.right-block {
+		float: left;
+	}
+	.left-block {
+		float: right;
+	}
+}
+@media (max-width: 768px) {
+	.container {
+		padding: 0 10px;
+	}
+	.navigation {
+		display: none;
+	}
+	.burger-icon {
+		display: block;
+	}
+	.navigation-li:not(.active) {
+		display: none;
+	}
+	.right-block {
+		width: 100%;
+	}
+	.left-block {
+		width: 80%;
+	}
+}
+@media (max-width: 480px){
+	.left-block {
+		width: 100%;
+	}
+}
+@media (max-width: 400px){
+	.logo img {
+		width: 65%;
+	}
+}
